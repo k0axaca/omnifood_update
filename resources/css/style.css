@@ -198,6 +198,7 @@ header {
     background-size: cover;
     background-position: center;
     height: 100vh;
+    background-attachment: fixed;
 }
 
 .hero-text-box {
@@ -363,13 +364,55 @@ header {
     padding: 0;
 }
 
-.city-name,
-.city-feature {
-    margin-left: 13px;
+.city-name {
+    margin-left: 18px;
 }
 
 .city-feature {
     margin-bottom: 5px;
+    margin-left: 10px;
 }
 
+/* -----------------------------*/
+/* TESTIMONIALS */
+/* ---------------------------- */
 
+.section-testimonials {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.75)), url(img/back-customers.jpg);
+    background-size: cover;
+    color: white;
+    background-attachment: fixed;   
+}
+
+blockquote {
+    padding: 2%;
+    font-style: italic;
+    line-height: 145%;
+    position: relative;
+    margin-top: 40px;
+}
+
+blockquote:before {
+    content: "\201C";
+    font-size: 500%;
+    display: block;
+
+    /* When an element has an absolute position, its parent needs a relative position */
+    position: absolute;
+    top: -5px;
+    left: -5px;
+
+}
+
+cite {
+    font: 90%;
+    margin-top: 25px;
+    display: block;
+}
+
+cite img {
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+}
