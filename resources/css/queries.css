@@ -87,13 +87,48 @@
     .works-steps { margin-bottom: 20px;}
     .works-steps:last-of-type { margin-top: 20px;}
 
+    .box img {
+        width: 70%;
+        height: auto;
+        margin: 15px;
+        padding: 0;
+        
+    }
+
+    .box {text-align: center;}
+
+    .city-name {
+        margin-left: 0px;
+    }
+    
+    .city-feature {
+        margin-bottom: 0px;
+        margin-left: 0px;
+    }
+
 
 }
 
 /* Small phones: from 0 to 480px */
 @media only screen and (max-width: 480px) {
 
+    .box img {
+        width: 60%;
+        height: auto;
+        margin: 15px;
+        padding: 0;
+    }
 
+    .box {text-align: center;}
+
+    .city-name {
+        margin-left: 0px;
+    }
+    
+    .city-feature {
+        margin-bottom: 0px;
+        margin-left: 0px;
+    }
 
 }
 
