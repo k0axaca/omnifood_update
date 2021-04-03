@@ -51,9 +51,20 @@
 
    body { font-size: 16px; } 
    section { padding: 30px 0; }
-   header { background-size: auto;}
-    
-   .section-testimonials { background-size: auto;}
+   .section-testimonials {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.75)), url(img/back-customers-mobile.jpg);
+    background-size: cover;
+    color: white;
+    background-attachment: fixed;   
+    }
+    header {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(img/hero-mobile.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        background-attachment: fixed;
+
+    }
 
    .row,
    .hero-text-box { padding: 0 4%; }
@@ -121,9 +132,20 @@
 
     section { padding: 25px 0; }
     .contact-form { width: 100%; }
-    header { background-size: auto;}
-    .section-testimonials { background-size: auto;}
+    .section-testimonials {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.75)), url(img/back-customers-mobile.jpg);
+        background-size: cover;
+        color: white;
+        background-attachment: fixed;   }
 
+    header {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(img/hero-mobile.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        background-attachment: fixed;
+
+    }
     .box img {
         width: 70%;
         height: auto;
