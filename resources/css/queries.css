@@ -52,19 +52,17 @@
    body { font-size: 16px; } 
    section { padding: 30px 0; }
    .section-testimonials {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.75)), url(img/back-customers-mobile.jpg);
-    background-size: cover;
-    color: white;
-    background-attachment: scroll;   
+        background-image: linear-gradient(rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.75)), url(img/back-customers-mobile.jpg);
+        background-attachment: scroll;   
     }
+
     header {
         background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(img/hero-mobile.jpg);
-        background-size: cover;
-        background-position: center;
-        height: 100vh;
         background-attachment: scroll;
-
     }
+
+    .logo {
+        height: 100px;}
 
    .row,
    .hero-text-box { padding: 0 4%; }
@@ -132,18 +130,7 @@
 
     section { padding: 25px 0; }
     .contact-form { width: 100%; }
-    .section-testimonials {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.75)), url(img/back-customers-mobile.jpg);
-        background-size: cover;
-        color: white;
-        background-attachment: scroll;   }
 
-    header {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(img/hero-mobile.jpg);
-        background-size: cover;
-        background-position: center;
-        height: 100vh;
-        background-attachment: scroll;
 
     }
     .box img {
