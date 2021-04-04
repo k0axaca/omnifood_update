@@ -52,12 +52,12 @@
    body { font-size: 16px; } 
    section { padding: 30px 0; }
    .section-testimonials {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.75)), url(img/back-customers-mobile.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.78), rgba(0, 0, 0, 0.78)), url(img/back-customers-mobile.jpg);
         background-attachment: scroll;   
     }
 
     header {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(img/hero-mobile.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)), url(img/hero-mobile.jpg);
         background-attachment: scroll;
     }
 
@@ -122,7 +122,7 @@
     }
 
     .section-features .long-copy {
-        margin-bottom: 5px; 
+        margin-bottom: 0px; 
     } 
 
     
