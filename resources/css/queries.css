@@ -125,7 +125,23 @@
         margin-bottom: 0px; 
     } 
 
-    
+    .footer-nav li,
+    .social-links li {
+        margin-right: 5px; 
+        }
+
+    footer p { margin-top: 5px; }
+
+    .btn-app img {
+        height: 35px;
+        width: auto;
+        margin-right: 20px;
+    }
+
+    .works-steps:last-of-type {
+        margin-bottom: 40px;
+    }
+
 
 }
 
