@@ -81,7 +81,7 @@
     text-align: justify;
     margin-bottom: 0;
 }
-    .app-screen { width: 40%; }
+    .app-screen { width: 50%; }
     .steps-box:first-child { text-align: center;}    
 
     h1 { font-size: 180%; }
@@ -99,27 +99,6 @@
     .works-steps { margin-bottom: 20px;}
     .works-steps:last-of-type { margin-top: 20px;}
 
-    .box img {
-        width: 80%;
-        height: auto;
-        margin: 15px;
-        padding: 0;
-        
-    }
-
-    .box {text-align: center;}
-
-    .city-name {
-        margin-left: 0px;
-    }
-    
-    .city-feature {
-        margin-bottom: 0px;
-        margin-left: 0%;
-        text-align: justify;
-        margin-left: 35%;
-        font-size: 100%;
-    }
 
     .section-features .long-copy {
         margin-bottom: 0px; 
@@ -136,12 +115,10 @@
         height: 35px;
         width: auto;
         margin-right: 20px;
+        margin-left: 2px;
     }
 
-    .works-steps:last-of-type {
-        margin-bottom: 40px;
-    }
-
+    .works-steps:last-of-type { margin-bottom: 40px; }
 
 }
 
@@ -150,29 +127,6 @@
 
     section { padding: 25px 0; }
     .contact-form { width: 100%; }
-
-
-    }
-    .box img {
-        width: 70%;
-        height: auto;
-        margin: 15px;
-        padding: 0;
-    }
-
-    .box {text-align: center;}
-
-    .city-name {
-        margin-left: 0px;
-    }
-    
-    .city-feature {
-        margin-bottom: 0px;
-        margin-left: 0px;
-        text-align: justify;
-        margin-left: 30%;
-    }
-
-    
-    
 }
+
+    

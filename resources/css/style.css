@@ -367,18 +367,12 @@ header {
 .box img {
     width: 100%;
     height: auto;
-    margin: 15px;
-    padding: 0;
-}
-
-.city-name {
-    margin-left: 18px;
-}
-
-.city-feature {
+    margin-bottom: 15px;
+  }
+  
+  .city-features {
     margin-bottom: 5px;
-    margin-left: 10px;
-}
+  }
 
 /* -----------------------------*/
 /* TESTIMONIALS */
