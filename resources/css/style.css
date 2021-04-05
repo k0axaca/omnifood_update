@@ -316,9 +316,9 @@ header {
 
 .meal-photo img:hover {
     /* scaling to 1.03 instead of 1 gets rid of white line between photos */
-    -webkit-transform: scale(1.03);
-        -ms-transform: scale(1.03);
-            transform: scale(1.03);
+    -webkit-transform: scale(1.04);
+        -ms-transform: scale(1.04);
+            transform: scale(1.04);
     opacity: 1;
 }
 
