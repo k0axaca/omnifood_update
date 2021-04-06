@@ -113,8 +113,11 @@
     margin-left: 0%;
     text-align: justify;
     margin-bottom: 0;
-}
-    .app-screen { width: 50%; }
+    }
+    .app-screen { 
+        width: 50%;
+        margin-right: -15px; }
+        
     .steps-box:first-child { text-align: center;}    
 
     h1 { font-size: 180%; }
@@ -153,6 +156,8 @@
 
     .works-steps:last-of-type { margin-bottom: 40px; }
 
+    .how-works { margin-bottom: 10px; }
+
 }
 
 /* Small phones: from 0 to 480px */
@@ -160,15 +165,18 @@
 
     section { padding: 25px 0; }
     .contact-form { width: 100%; }
-}
+    
 
-.meal-photo img:hover {
+    .meal-photo img:hover {
     /* scaling to 1.03 instead of 1 gets rid of white line between photos */
     -webkit-transform: scale(1.09);
-        -ms-transform: scale(1.09);
-            transform: scale(1.09);
+    -ms-transform: scale(1.09);
+    transform: scale(1.09);
     opacity: 1;
-}
+    }
+
+    .how-works { margin-bottom: 0px; }
+
 
     
 }
